@@ -1,0 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body__background{
+    background-image: url(https://i.postimg.cc/T3WhJMTV/dolar.jpg);
+}
