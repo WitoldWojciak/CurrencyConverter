@@ -1,0 +1,66 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: whitesmoke
+}
+
+.form {
+    max-width: 500px;
+    width: 100%;
+    margin: 30px auto;
+}
+
+.form__fieldset {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.form__legend {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(220, 220, 220);
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.form__label {
+    display: inline-block;
+    width: 100%;
+    max-width: 150px;
+    margin: 0 25px;
+}
+
+.form__field {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    max-width: 200px;
+    width: 100%;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.form__outcome {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 25px;
+    padding: 20px 0px;
+}
+
+.form__outcome--value {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px 1px black;
+    padding: 8px 20px;
+    margin-left: 35%;
+}
