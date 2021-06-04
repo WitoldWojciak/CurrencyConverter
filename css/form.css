@@ -6,6 +6,12 @@ html {
     box-sizing: inherit;
 }
 
+.form {
+    max-width: 500px;
+    width: 98%;
+    margin: 100px auto;
+}
+
 .form__fieldset {
     border: 1px solid black;
     border-radius: 5px;
