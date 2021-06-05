@@ -23,9 +23,10 @@ html {
 .form__legend {
     border: 2px solid black;
     border-radius: 5px;
-    padding: 10px;
+    padding: 10px 30px;
     background-color: rgb(220, 220, 220);
     box-shadow: 1px 1px 1px 1px black;
+    text-align: center;
 }
 
 .form__label {
@@ -45,18 +46,24 @@ html {
     box-shadow: 1px 1px 1px 1px black;
 }
 
-.form__outcome {
-    width: 100%;
-    max-width: 350px;
-    margin: 0 25px;
-    padding: 20px 0px;
+.form__button {
+    text-align: center;
 }
 
-.form__outcome--value {
+.form__buttonClick {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 70px;
+    background-color: rgb(220, 220, 220);
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.form__outcome {
     border: 1px solid black;
     border-radius: 5px;
     background-color: whitesmoke;
     box-shadow: 1px 1px 1px 1px black;
-    padding: 8px 20px;
-    margin-left: 35%;
+    padding: 15px 20px;
+    text-align: center;
+  
 }
