@@ -27,14 +27,14 @@
             <p>
                 <label>
                     <span class="form__label">Podaj kwotę (PLN):</span>
-                    <input class="form__field js-formPLN" name="amountPLN" type="number" min="0" step="1"
+                    <input class="form__field js-amount" name="amountPLN" type="number" min="0" step="1"
                         placeholder="PLN" autofocus required>
                 </label>
             </p>
             <p>
                 <label>
                     <span class="form__label">Wybierz walutę:</span>
-                    <select class="form__field js-formNotPLN" name="currency" required>
+                    <select class="form__field js-currency" name="currency" required>
                         <option value="">Wybierz walutę</option>
                         <option value="EUR">EUR</option>
                         <option value="USD">USD</option>
@@ -43,7 +43,7 @@
                 </label>
             </p>
             <p class="form__button"><button class="form__buttonClick">Przelicz!</button></p>
-            <p class="form__outcome js-formOutcome"> </p>
+            <p class="form__result js-result"> </p>
         </fieldset>
     </form>
 </body>
