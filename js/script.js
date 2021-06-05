@@ -1,13 +1,14 @@
-let currencyPLN = document.querySelector(".js-form__PLN");
-let currencyNotPLN = document.querySelector(".js-form__notPLN");
+let currencyPLN = document.querySelector(".js-formPLN");
+let currencyNotPLN = document.querySelector(".js-formNotPLN");
 let formElement = document.querySelector(".js-form");
-let formOutcome = document.querySelector(".js-form__outcome");
+let formOutcome = document.querySelector(".js-formOutcome");
 
 let rateEUR = 4.53
 let rateUSD = 3.73
 let rateGBP = 5.21
 
-formElement.addEventListener("input", () => {
+formElement.addEventListener("submit", (event) => {
+    event.preventDefault();
     let PLN = currencyPLN.value;
     let notPLN = currencyNotPLN.value;
     let outcome;
