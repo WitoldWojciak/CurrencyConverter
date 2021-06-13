@@ -7,9 +7,8 @@ html {
 }
 
 .form {
-    max-width: 500px;
-    width: 98%;
-    margin: 90px auto;
+    flex-basis: 500px;
+    margin: 5px;
 }
 
 .form__fieldset {
